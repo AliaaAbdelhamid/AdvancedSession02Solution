@@ -169,6 +169,40 @@
             //Console.WriteLine(isPositive(5));   // True
 
             #endregion
+                
+            #region Lambda Closures
+
+            #region Problem 
+            //List<Func<bool>> checks = new();
+
+            //for (int i = 1; i <= 3; i++)
+            //{
+            //    checks.Add(() => i % 2 == 0);
+            //}
+
+            //foreach (var check in checks)
+            //{
+            //    Console.WriteLine(check()); // true , true , true 
+            //}
+            #endregion
+
+            #region Solution
+            //List<Func<bool>> checks = new();
+
+            //for (int i = 1; i <= 3; i++)
+            //{
+            //    int copy = i;
+
+            //    checks.Add(() => copy % 2 == 0);
+            //}
+
+            //foreach (var check in checks)
+            //{
+            //    Console.WriteLine(check()); // false , true , false 
+            //}
+            #endregion
+
+            #endregion
         }
 
         public static void PrintSquareNumber(int num)
